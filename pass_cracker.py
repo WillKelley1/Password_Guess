@@ -29,8 +29,8 @@ def brute_force_crack(target_password, charset):
 # Define character set and target password
 charset = string.ascii_letters + string.digits
 #target = "9q{Nx/x(!]!eZt"
-target = 'pass'
-#nput("Enter Password to Crack: ")
+target = input("Enter Password to Crack: ")
+
 
 # Assume a speed of attempts per second
 attempts_per_second = 1000000  # Adjust based on your system's performance
